@@ -1,0 +1,87 @@
+.navContainer {
+  display: flex;
+  padding: 10px 15px 10px 15px;
+  justify-content: space-between;
+}
+
+.navAnchorContainer {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border: 1px black solid;
+  display: flex;
+  gap: 20px;
+}
+
+a:hover {
+  background-color: red;
+}
+
+img {
+  width: 100%;
+}
+
+.aboutCompany {
+  font-size: 2em;
+  font-family: Verdana, sans-serif;
+  width: 60%;
+}
+
+.aboutCompanyWrapper {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin: 50px 0px 50px 0px;
+}
+
+.images {
+  width: 30%;
+  border-radius: 50px;
+}
+
+.projectImagesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.footerHeader {
+  font-size: 2em;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.FooterIndividualWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footerImages {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.footerIndividualWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.aboutFooter {
+  display: flex;
+}
+
+.footerButton {
+  width: 100%;
+}
+
+.footerIndividualWrap {
+  margin-top: 60px;
+  margin-bottom: 500px;
+}
